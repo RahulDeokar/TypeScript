@@ -18,3 +18,9 @@ function ageVerifier(age) {
     }
 }
 console.log(ageVerifier(21));
+// ------------------------------------
+// never 
+function errorHandeler(msg) {
+    throw (msg);
+}
+ageVerifier(21);

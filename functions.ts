@@ -37,3 +37,15 @@ else{
 
 
 console.log(ageVerifier(21))
+
+// ------------------------------------
+
+// never 
+
+function errorHandeler(msg:string) :never{
+
+throw(msg)
+}
+
+
+ageVerifier(21);
